@@ -1,0 +1,5 @@
+
+“
+java:S3655M"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(ñö¬é8³óîþº2J$7fc7dd5a-dc06-412c-b2e5-fc488259987b
+•
+java:S6204V"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(¶ð—ñ8¶ åþº2J$6b92e9fe-922d-495a-8533-5d3d3030d62c

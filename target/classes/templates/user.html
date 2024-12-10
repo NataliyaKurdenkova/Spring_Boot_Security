@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<div>
+
+    <table border="1">
+        <tr>
+            <td><b>NAME</b></td>
+            <td><b>LAST_NAME</b></td>
+            <td><b>EMAIL</b></td>
+            <td><b>ROLES</b></td>
+        </tr>
+        <tr th:each="user:${users}">
+            <td th:text="${user.username}"> NAME</td>
+            <td th:text="${user.lastName}"> LAST_NAME</td>
+            <td th:text="${user.email}"> EMAIL</td>
+            <td th:each="role:${user.roles}">
+                <p th:text="${role.nameRole}"></p></td>
+        </tr>
+    </table>
+    <form th:action="@{/logout}" method="post">
+        <input type="submit" value="Logout"/>
+    </form>
+</div>
+</body>
+</html>
