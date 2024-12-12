@@ -1,5 +1,7 @@
 
 “
-java:S3655M"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(ñö¬é8³óîşº2J$7fc7dd5a-dc06-412c-b2e5-fc488259987b
+java:S3655T"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(ñö¬é8³óîşº2J$dc3ab7bb-60b3-4a74-a926-b285ce46d60c
+
+java:S36556"NCall "oldUser.isPresent()" or "!oldUser.isEmpty()" before accessing the value.(ÔĞˆ18·«¡×»2J$eb03e334-f868-4b66-803e-13f43dd1be2d
 •
-java:S6204V"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(¶ğ—ñ8¶ åşº2J$6b92e9fe-922d-495a-8533-5d3d3030d62c
+java:S6204]"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(¶ğ—ñ8¶ åşº2J$8daa04de-9266-4d02-a7cc-4be5166db650

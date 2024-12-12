@@ -1,6 +1,4 @@
 
-v
-Fsrc/main/java/ru/kata/spring/boot_security/demo/configs/MvcConfig.java,d\b\dba71beccf931e54fa0e12800e5a861714e0467b
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 ‹
@@ -15,12 +13,6 @@ o
 ?src/main/java/ru/kata/spring/boot_security/demo/model/User.java,4\d\4da5a3eb2c5c1437584192acd71e175ad1186eb5
 o
 ?src/main/java/ru/kata/spring/boot_security/demo/model/Role.java,f\5\f59a1869daab9b3001260d445c82b7dd1fc5f294
-r
-Bsrc/main/java/ru/kata/spring/boot_security/demo/dao/EntityDAO.java,1\0\10d971d32a9d5b58bc36da07e662760d0a9ee253
-t
-Dsrc/main/java/ru/kata/spring/boot_security/demo/dao/UserDAOImpl.java,0\7\07096682c2c59ba377a23e40a99b11d1f26b9b1d
-t
-Dsrc/main/java/ru/kata/spring/boot_security/demo/dao/RoleDAOImpl.java,a\1\a166071d15aa90d2f7a2dd04d8e61f47be2495b3
 z
 Jsrc/main/java/ru/kata/spring/boot_security/demo/service/EntityService.java,1\4\14a3755ae7560916215195ca59fe6b515c35732b
 |

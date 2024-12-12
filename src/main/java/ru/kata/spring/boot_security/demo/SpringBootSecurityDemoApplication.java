@@ -40,7 +40,7 @@ public class SpringBootSecurityDemoApplication {
 
         Set<Role> roles = new HashSet<>();
         roles.add(adminRole);
-        User adminUser = new User("admin", "admin", "admin", "admin", roles);
+        User adminUser = new User("admin", "admin", "admin@mail", "admin", roles);
         userService.save(adminUser);
     }
 
